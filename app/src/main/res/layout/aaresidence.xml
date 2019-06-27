@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+<LinearLayout
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/aatitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="32sp"
+            android:text="AA + REZİDANCE"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="#FFFFFF"
+            android:text="Book now at booking.com"/>
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/text_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="alpha"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/location"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/location"
+                android:text="
+ Şht. Özel Ali Sokak, Göçmenköy, KKTC, 1020 North Nicosia"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/contact"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/contact"
+                android:text="
+ Şht. Özel Ali Sokak, Göçmenköy, KKTC, 1020 North Nicosia"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/email"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/email"
+                android:text="
+ Şht. Özel Ali Sokak, Göçmenköy, KKTC, 1020 North Nicosia"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Top Choice"/>
+    <ImageView
+        android:id="@+id/pop_up_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cityroyal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/aaresidence_text"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Near this hotel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="British High Comission"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.5KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nicosia Race Club"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.8KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kyrenia Gate"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.2KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mevlevi Tekke Museum"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.2KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venice ColumnBritish High Comission"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.4KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nicosia Municipal Gardens"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.6KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dervıs Pasa Mansion"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.5KM"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0"/>
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:id="@+id/collapsingtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/merithotel"
+        app:layout_scrollFlags="exitUntilCollapsed|scroll"
+        app:contentScrim="?attr/colorPrimary"
+        app:expandedTitleMarginEnd="64dp"
+        app:expandedTitleMarginStart="48dp"
+        app:title="Top Hotels In TRNC"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        </android.support.v7.widget.Toolbar
+            >
+
+
+
+
+
+
+
+    </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LEFKOSA HOTELS"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lefkosaRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GIRNE HOTELS"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/girneRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MAGUSA HOTELS"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/magusaRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TRIKOMO HOTELS"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/trikomoRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

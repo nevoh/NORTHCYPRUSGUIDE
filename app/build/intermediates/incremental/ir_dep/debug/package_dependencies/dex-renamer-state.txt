@@ -1,0 +1,4 @@
+#Tue Jun 25 18:53:48 EAT 2019
+base.0=C\:\\Users\\elitebook\\Desktop\\Miwok\\NORTHCYPRUSGUIDE\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
